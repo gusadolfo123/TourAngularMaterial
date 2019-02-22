@@ -1,0 +1,11 @@
+
+npm install --save @angular/material @angular/cdk @angular/animations
+npm install --save hammerjs
+
+ng g c auth/login --spec=false 
+ng g c auth/register --spec=false 
+
+ng g c shared/navbar --spec=false
+ng g c shared/footer --spec=false
+
+ng g c main --spec=false
