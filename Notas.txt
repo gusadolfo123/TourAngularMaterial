@@ -1,7 +1,14 @@
 
+-- Dependencias
 npm install --save @angular/material @angular/cdk @angular/animations
 npm install --save hammerjs
 
+npm install @ngrx/store --save
+npm install @ngrx/store-devtools --save
+npm install @ngrx/effects --save
+npm install @ngrx/router-store --save
+
+-- Componentes
 ng g c auth/login --spec=false 
 ng g c auth/register --spec=false 
 
@@ -9,3 +16,8 @@ ng g c shared/navbar --spec=false
 ng g c shared/footer --spec=false
 
 ng g c main --spec=false
+ng g c main/index --spec=false --module app
+ng g c main/sites --spec=false --module app
+ng g c main/sites/detail --spec=false --module app
+ng g c main/about --spec=false --module app
+ng g c main/contact --spec=false --module app

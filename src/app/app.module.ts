@@ -15,9 +15,12 @@ import {FooterComponent} from './shared/footer/footer.component';
 // angular material
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MaterialModule} from './material.module';
+import { IndexComponent } from './main/index/index.component';
+import { ContactComponent } from './main/contact/contact.component';
+import { AboutComponent } from './main/about/about.component';
 
 @NgModule({
-  declarations: [AppComponent, LoginComponent, RegisterComponent, MainComponent, NavbarComponent, FooterComponent],
+  declarations: [AppComponent, LoginComponent, RegisterComponent, MainComponent, NavbarComponent, FooterComponent, IndexComponent, ContactComponent, AboutComponent],
   imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule, MaterialModule],
   providers: [],
   bootstrap: [AppComponent],

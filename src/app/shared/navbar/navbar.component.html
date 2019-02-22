@@ -1,10 +1,14 @@
 <mat-toolbar>
   <mat-toolbar-row>
     <span>
-      <a class="navbar-brand" href="#"> <img src="../../../assets/logo.png" alt="" /> </a>
+      <a [routerLink]="[ '/' ]" routerLinkActive="active"><img src="../../../assets/logo.png" alt="" /></a>
     </span>
     <span class="example-spacer"></span>
-    <mat-icon class="example-icon">tab</mat-icon>
-    <mat-icon class="example-icon">eject</mat-icon>
+    <a [routerLink]="[ '/about' ]" routerLinkActive="active">About</a>
+    <a [routerLink]="[ '/contact' ]" routerLinkActive="active">Contact</a>
+    <a [routerLink]="[ '/login' ]" routerLinkActive="active">Login</a>
+    <a [routerLink]="[ '/register' ]" routerLinkActive="active">Register</a>
+    <!-- <mat-icon class="example-icon">tab</mat-icon>
+    <mat-icon class="example-icon">eject</mat-icon> -->
   </mat-toolbar-row>
 </mat-toolbar>
