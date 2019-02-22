@@ -21,3 +21,10 @@ ng g c main/sites --spec=false --module app
 ng g c main/sites/detail --spec=false --module app
 ng g c main/about --spec=false --module app
 ng g c main/contact --spec=false --module app
+
+-- Modulos
+ng g m main
+ng g m shared
+ng g m auth
+
+
