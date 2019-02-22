@@ -5,3 +5,12 @@
 .example-spacer {
   flex: 1 1 auto;
 }
+
+mat-toolbar-row {
+  margin: 0px auto;
+  max-width: 1200px;
+}
+
+a {
+  text-decoration: none;
+}

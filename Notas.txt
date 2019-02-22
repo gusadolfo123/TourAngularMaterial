@@ -3,6 +3,8 @@
 npm install --save @angular/material @angular/cdk @angular/animations
 npm install --save hammerjs
 
+npm install --save bootstrap
+
 npm install @ngrx/store --save
 npm install @ngrx/store-devtools --save
 npm install @ngrx/effects --save
@@ -14,6 +16,8 @@ ng g c auth/register --spec=false
 
 ng g c shared/navbar --spec=false
 ng g c shared/footer --spec=false
+ng g c shared/slider --spec=false
+ng g c shared/search --spec=false
 
 ng g c main --spec=false
 ng g c main/index --spec=false --module app
@@ -28,3 +32,9 @@ ng g m shared
 ng g m auth
 
 
+-- carrousel
+https://www.npmjs.com/package/ngx-hm-carousel
+https://alanzouhome.firebaseapp.com/package/NgxHmCarousel/example
+npm install resize-observer-polyfill --save-dev
+npm install --save tslib
+npm install --save ngx-hm-carousel
