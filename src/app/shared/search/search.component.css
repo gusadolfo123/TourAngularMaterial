@@ -1,30 +1,12 @@
-/* .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.item {
-  align-self: center;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-} */
-
 #searchContainer {
-  /* background-image: url('https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg'); */
+  background: rgb(34, 34, 34);
+  background-image: url('https://s3.ap-south-1.amazonaws.com/dlab-html/triper/xhtml/images/background/bg1.jpg');
+  background-blend-mode: soft-light;
   background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
   font-weight: bold;
 }
 
-/* 
-  se deja en el principal
-  .mat-form-field-infix {
-    border-top: 0px !important;
-  } 
-  
-*/
+button {
+  background-color: #21ab64 !important;
+}

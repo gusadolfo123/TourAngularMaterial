@@ -1,19 +1,27 @@
-<ngx-hm-carousel #carousel [(ngModel)]="index" (ngModelChange)="indexChanged($event)" [autoplay-speed]="speed"
-  [autoplay]="autoplay" [autoplay-direction]="direction" [infinite]="infinite" [between-delay]="5000" [mourse-enable]="true"
-  [data]="avatars" [aniTime]="300" class="carousel c-accent">
-
+<ngx-hm-carousel
+  #carousel
+  [(ngModel)]="index"
+  (ngModelChange)="indexChanged($event)"
+  [autoplay-speed]="speed"
+  [autoplay]="autoplay"
+  [autoplay-direction]="direction"
+  [infinite]="infinite"
+  [between-delay]="5000"
+  [mourse-enable]="true"
+  [data]="avatars"
+  [aniTime]="300"
+  class="carousel c-accent"
+>
   <section ngx-hm-carousel-container class="content">
     <article class="item cursor-pointer" ngx-hm-carousel-item *ngFor="let avatar of avatars">
-      <div class="img" [style.backgroundImage]="'url('+avatar.url+')'">
-      </div>
+      <div class="img" [style.backgroundImage]="'url(' + avatar.url + ')'"></div>
     </article>
     <ng-template #infiniteContainer></ng-template>
   </section>
 
   <ng-template #carouselContent let-avatar let-i="index">
     <article class="item cursor-pointer">
-      <div class="img" [style.backgroundImage]="'url('+avatar.url+')'">
-      </div>
+      <div class="img" [style.backgroundImage]="'url(' + avatar.url + ')'"></div>
     </article>
   </ng-template>
 
@@ -35,5 +43,4 @@
   <ng-template #carouselProgress>
     <div class="progress"></div>
   </ng-template>
-
 </ngx-hm-carousel>
