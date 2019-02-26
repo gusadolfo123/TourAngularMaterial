@@ -6,7 +6,6 @@ import {
   MatToolbarModule,
   MatIconModule,
   MatGridListModule,
-  MatMenuTrigger,
   MatMenuModule,
   MatSlideToggleModule,
   MatFormFieldModule,
@@ -15,6 +14,8 @@ import {
   MatNativeDateModule,
   MatOptionModule,
   MatSelectModule,
+  MatCommonModule,
+  MatCardModule,
 } from '@angular/material';
 import {NgModule} from '@angular/core';
 
@@ -33,6 +34,8 @@ import {NgModule} from '@angular/core';
     MatNativeDateModule,
     MatSelectModule,
     MatOptionModule,
+    MatCommonModule,
+    MatCardModule,
     NgxHmCarouselModule,
   ],
   exports: [
@@ -49,6 +52,8 @@ import {NgModule} from '@angular/core';
     MatNativeDateModule,
     MatSelectModule,
     MatOptionModule,
+    MatCommonModule,
+    MatCardModule,
     NgxHmCarouselModule,
   ],
 })

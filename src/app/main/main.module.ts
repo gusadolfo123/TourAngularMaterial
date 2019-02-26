@@ -6,9 +6,10 @@ import {ContactComponent} from './contact/contact.component';
 import {AboutComponent} from './about/about.component';
 import {MainRoutingModule} from './main-routing.module';
 import {SharedModule} from '../shared/shared.module';
+import {MatButtonModule} from '@angular/material';
 
 @NgModule({
   declarations: [MainComponent, IndexComponent, ContactComponent, AboutComponent],
-  imports: [CommonModule, MainRoutingModule, SharedModule],
+  imports: [CommonModule, MainRoutingModule, SharedModule, MatButtonModule],
 })
 export class MainModule {}
