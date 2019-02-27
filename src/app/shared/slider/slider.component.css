@@ -70,3 +70,13 @@
 .carousel .click-area i {
   font-size: 3em;
 }
+
+.right-success {
+  background-color: #21ab64 !important;
+  color: whitesmoke !important;
+}
+
+.left-success {
+  background-color: #21ab64 !important;
+  color: whitesmoke !important;
+}
