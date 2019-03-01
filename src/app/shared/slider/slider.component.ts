@@ -25,7 +25,7 @@ export class SliderComponent {
   constructor() {}
 
   indexChanged(index) {
-    console.log(index);
+    // console.log(index);
   }
 
   toggleDirection($event) {
