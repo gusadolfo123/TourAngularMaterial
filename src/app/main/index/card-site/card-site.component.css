@@ -12,3 +12,21 @@ mat-card-actions {
 .mat-card > .mat-card-actions:last-child {
   margin-bottom: -18px !important;
 }
+.price {
+  position: relative;
+  background-color: #21ab64;
+  text-align: center;
+  left: -26px;
+  top: -70px;
+  color: azure;
+  width: 100px;
+}
+.price:before {
+  border-left: 10px solid rgba(0, 0, 0, 0);
+  border-right: 0 solid rgba(0, 0, 0, 0);
+  border-top: 7px solid #006e2c;
+  bottom: -7px;
+  content: '';
+  left: 0;
+  position: absolute;
+}

@@ -7,24 +7,24 @@
       <a [routerLink]="['/contact']" routerLinkActive="active" class="p-2 text-dark">Contact</a>
     </nav>
 
-    <button mat-icon-button [matMenuTriggerFor]="menu">
+    <button class="btn" mat-icon-button [matMenuTriggerFor]="menu">
       <mat-icon>more_vert</mat-icon>
     </button>
 
     <mat-menu #menu="matMenu">
-      <button mat-menu-item>
+      <span mat-menu-item>
         <a [routerLink]="['/login']" routerLinkActive="active">
           <mat-icon>voicemail</mat-icon>
           <span>Login</span>
         </a>
-      </button>
+      </span>
 
-      <button mat-menu-item>
+      <span mat-menu-item>
         <a [routerLink]="['/register']" routerLinkActive="active">
           <mat-icon>voicemail</mat-icon>
           <span>Register</span>
         </a>
-      </button>
+      </span>
     </mat-menu>
   </div>
 </div>

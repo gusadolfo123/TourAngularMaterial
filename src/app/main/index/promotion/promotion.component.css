@@ -1,7 +1,16 @@
+button {
+  background-color: #21ab64 !important;
+}
 .body-content {
-  height: 350px !important;
+  background: rgb(34, 34, 34);
+  background-blend-mode: soft-light;
+  font-weight: bold;
+  /* height: 350px !important; */
   background-image: url('https://s3.ap-south-1.amazonaws.com/dlab-html/triper/xhtml/images/background/bg3.jpg');
-  background-size: auto;
-  background-attachment: fixed;
-  background-position: 0px -52.5376px;
+  /* background-size: cover; */
+  background-position: 0px -250px;
+  font-weight: bold;
+  color: azure;
+  font-size: 18px !important;
+  line-height: 28px !important;
 }

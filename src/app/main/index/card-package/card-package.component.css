@@ -1,3 +1,8 @@
 button {
   background-color: #21ab64 !important;
 }
+.price {
+  color: #21ab64 !important;
+  font: bold;
+  padding: 16px !important;
+}
