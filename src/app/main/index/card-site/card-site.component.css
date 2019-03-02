@@ -1,3 +1,14 @@
 button {
   background-color: #21ab64 !important;
+  border-radius: 0px !important;
+}
+mat-card-actions {
+  margin: 0 -16px 16px -16px;
+}
+
+.btn1 {
+  background-color: #1c8b52 !important;
+}
+.mat-card > .mat-card-actions:last-child {
+  margin-bottom: -18px !important;
 }

@@ -29,6 +29,7 @@ ng g c main/about --spec=false --module app
 ng g c main/contact --spec=false --module app
 ng g c main/index/card-site --spec=false
 ng g c main/index/card-package --spec=false
+ng g c main/index/promotion --spec=false
 
 
 -- Modulos

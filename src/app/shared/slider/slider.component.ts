@@ -17,7 +17,7 @@ export class SliderComponent {
   avatars = '123456789'.split('').map((x, i) => {
     const num = i;
     return {
-      url: `https://picsum.photos/600/300/?${num}`,
+      url: `https://picsum.photos/1000/600/?${num}`,
       title: `${num}`,
     };
   });
