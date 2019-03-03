@@ -15,10 +15,6 @@
   height: 20px !important;
   background-color: rgb(83, 82, 82);
 } */
-.fa-facebook-square {
-  width: 50px !important;
-}
-
 .bg-footer {
   background-color: #121212;
   color: #b0b0b0;
@@ -29,6 +25,15 @@ ul {
   font-size: 16px;
   font-weight: 400;
 }
-.list-inline-item {
-  background-color: #1e58ce;
+.btn-fb {
+  background-color: #4B69A8;
+  color: white !important;
+}
+.btn-link{
+  background-color: #249DD7;
+  color: white !important;
+}
+.btn-tw{  
+  background-color: #1EA1F3;
+  color: white !important;
 }
