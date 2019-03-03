@@ -19,8 +19,6 @@ ng g c shared/footer --spec=false
 ng g c shared/slider --spec=false
 ng g c shared/search --spec=false
 
-
-
 ng g c main --spec=false
 ng g c main/index --spec=false --module app
 ng g c main/sites --spec=false --module app
@@ -30,6 +28,8 @@ ng g c main/contact --spec=false --module app
 ng g c main/index/card-site --spec=false
 ng g c main/index/card-package --spec=false
 ng g c main/index/promotion --spec=false
+ng g c main/places --spec=false
+ng g c main/places/detail --spec=false
 
 
 -- Modulos
