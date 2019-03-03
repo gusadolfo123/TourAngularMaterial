@@ -30,6 +30,7 @@ ng g c main/index/card-package --spec=false
 ng g c main/index/promotion --spec=false
 ng g c main/places --spec=false
 ng g c main/places/detail --spec=false
+ng g c main/places/card-place --spec=false
 
 
 -- Modulos
