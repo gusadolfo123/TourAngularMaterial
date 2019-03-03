@@ -9,3 +9,7 @@
   background-size: cover;
   color: white;
 }
+.btn-search {
+  background-color: #21ab64 !important;
+  font: bold;
+}

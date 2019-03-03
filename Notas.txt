@@ -45,3 +45,6 @@ https://alanzouhome.firebaseapp.com/package/NgxHmCarousel/example
 npm install resize-observer-polyfill --save-dev
 npm install --save tslib
 npm install --save ngx-hm-carousel
+
+-- google recaptcha
+npm i ng-recaptcha --save
