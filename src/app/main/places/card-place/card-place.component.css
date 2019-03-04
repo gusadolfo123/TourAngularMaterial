@@ -1,4 +1,8 @@
 .btn {
-  background-color: #21ab64 !important;
   font: bold;
+  color: #21ab64 !important;
+}
+
+.btn:hover {
+  color: white !important;
 }

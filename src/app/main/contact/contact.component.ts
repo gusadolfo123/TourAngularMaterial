@@ -7,8 +7,5 @@ import {Component, OnInit} from '@angular/core';
 })
 export class ContactComponent implements OnInit {
   constructor() {}
-  resolved(captchaResponse: string) {
-    console.log(`Resolved captcha with response ${captchaResponse}:`);
-  }
   ngOnInit() {}
 }

@@ -11,8 +11,6 @@ import {PromotionComponent} from './index/promotion/promotion.component';
 import {PlacesComponent} from './places/places.component';
 import {DetailComponent} from './places/detail/detail.component';
 import {CardPlaceComponent} from './places/card-place/card-place.component';
-import {RecaptchaModule} from 'ng-recaptcha';
-import {RecaptchaFormsModule} from 'ng-recaptcha/forms';
 @NgModule({
   declarations: [
     MainComponent,
@@ -24,15 +22,6 @@ import {RecaptchaFormsModule} from 'ng-recaptcha/forms';
     DetailComponent,
     CardPlaceComponent,
   ],
-  imports: [
-    CommonModule,
-    MainRoutingModule,
-    SharedModule,
-    MatButtonModule,
-    MatCardModule,
-    RecaptchaModule,
-    RecaptchaFormsModule,
-  ],
-  exports: [RecaptchaModule, RecaptchaFormsModule],
+  imports: [CommonModule, MainRoutingModule, SharedModule, MatButtonModule, MatCardModule],
 })
 export class MainModule {}
