@@ -1,3 +1,31 @@
-<p>
-  about works!
-</p>
+<div class="container-fluid">
+  <div class="row mb-5 text-center bg-image py-5">
+    <div class="col-md-12">
+      <h1>Acerca de Nosotros</h1>
+    </div>
+  </div>
+</div>
+<div class="container pb-5">
+  <div class="row">
+    <div class="col-md-12 col-lg-6">
+      <h3>Titulo</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, dolores! Veritatis quas aliquam molestias quasi
+        maiores aspernatur dolores odio vero nam numquam? Tenetur, exercitationem nam? Eum obcaecati ex possimus
+        accusantium!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, dolores! Veritatis quas aliquam molestias
+        quasi
+        maiores aspernatur dolores odio vero nam numquam? Tenetur, exercitationem nam? Eum obcaecati ex possimus
+        accusantium!
+      </p>
+    </div>
+    <div class="col-md-12 col-lg-6">
+      <h3>Titulo</h3>
+      <div *ngFor="let image of album; let i=index">
+        <img class="img-thumbnail" [src]="image.thumb" (click)="open(i)" />
+      </div>
+    </div>
+  </div>
+</div>

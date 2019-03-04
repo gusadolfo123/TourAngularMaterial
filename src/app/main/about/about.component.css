@@ -1,0 +1,17 @@
+.list-group-item {
+  cursor: pointer;
+}
+
+.bg-image {
+  background: rgb(34, 34, 34);
+  background-image: url('https://s3.ap-south-1.amazonaws.com/dlab-html/triper/xhtml/images/background/bg1.jpg');
+  background-blend-mode: soft-light;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
+
+.btn-search {
+  background-color: #21ab64 !important;
+  font: bold;
+}

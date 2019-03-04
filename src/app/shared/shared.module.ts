@@ -9,6 +9,7 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {SearchComponent} from './search/search.component';
 import {CardSiteComponent} from '../main/index/card-site/card-site.component';
 import {CardPackageComponent} from '../main/index/card-package/card-package.component';
+import {LightboxModule} from 'ngx-lightbox';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,6 @@ import {CardPackageComponent} from '../main/index/card-package/card-package.comp
     CardSiteComponent,
     CardPackageComponent,
   ],
-  imports: [CommonModule, MaterialModule, RouterModule, FormsModule, ReactiveFormsModule],
+  imports: [CommonModule, MaterialModule, RouterModule, FormsModule, ReactiveFormsModule, LightboxModule],
 })
 export class SharedModule {}

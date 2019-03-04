@@ -19,21 +19,25 @@
   background-color: #121212;
   color: #b0b0b0;
 }
+
 ul {
   list-style: none;
   margin-top: 5px;
   font-size: 16px;
   font-weight: 400;
 }
+
 .btn-fb {
   background-color: #4B69A8;
   color: white !important;
 }
-.btn-link{
+
+.btn-link {
   background-color: #249DD7;
   color: white !important;
 }
-.btn-tw{  
+
+.btn-tw {
   background-color: #1EA1F3;
   color: white !important;
 }
