@@ -1,10 +1,12 @@
 <mat-card class="example-card">
-  <div class="media-card">
-    <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu" />
-    <div class="price py-2">
-      <span>1200 USD</span>
+  <a [routerLink]="[ '/places', bogota ]">
+    <div class="media-card">
+      <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu" />
+      <div class="price py-2">
+        <span>1200 USD</span>
+      </div>
     </div>
-  </div>
+  </a>
   <mat-card-content>
     <h4 class="text-center">Bogota</h4>
     <span>
