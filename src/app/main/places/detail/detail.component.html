@@ -13,13 +13,12 @@
         <app-slider class="col-12"></app-slider>
         <div class="col-md-12">
           <h2 class="mt-4">Acerca de Bogota</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nostrum pariatur eos totam adipisci?
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nostrum pariatur eos totam adipisci?
             Consequuntur recusandae eos, repellat optio odio ad, quae nam inventore assumenda at maxime iure sint
-            explicabo.</p>
+            explicabo.
+          </p>
         </div>
-      </div>
-      <div class="row">
-
       </div>
     </div>
     <div class="col-sm-12 col-md-12 col-lg-4">
@@ -30,9 +29,28 @@
       </div>
       <div>
         <span>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, iusto. Nulla inventore quia odio tempore
-          magnam asperiores similique. Velit porro non unde labore dolor aliquam sit, possimus harum. Unde, aperiam!
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, iusto. Nulla inventore quia odio tempore magnam
+          asperiores similique. Velit porro non unde labore dolor aliquam sit, possimus harum. Unde, aperiam!
         </span>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-8">
+      <picture>
+        <img src="../../../../assets/4.png" alt="" class="img-thumbnail map" />
+        <div class="punto1" #punto1 (click)="ShowDetailSite(punto1)"></div>
+      </picture>
+    </div>
+    <div class="col-sm-12 col-md-12 col-lg-4">
+      <div class="row">
+        <span>{{ detail.Site }}</span>
+        <p>{{ detail.Description }}</p>
+      </div>
+      <div class="row">
+        <figure class="col-md-1" *ngFor="let image of detail.images">
+          <div style="height: 200px;" [style.backgroundImage]="'url(' + image.url + ')'"></div>
+        </figure>
       </div>
     </div>
   </div>
