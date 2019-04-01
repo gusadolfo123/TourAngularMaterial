@@ -31,7 +31,7 @@ import {AgmCoreModule} from '@agm/core';
     SharedModule,
     MatButtonModule,
     MatCardModule,
-    AgmCoreModule.forRoot({apiKey: 'AIzaSyApBgJo8r9ibGmrlUFCrlEI1HY1eM66Vi0'}),
+    AgmCoreModule.forRoot({apiKey: ''}),
   ],
 })
 export class MainModule {}
