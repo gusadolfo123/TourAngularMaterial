@@ -1,4 +1,6 @@
+// import '../../../../../node_modules/leaflet-routing-machine/dist/leaflet-routing-machine.js';
 import {Component, OnInit} from '@angular/core';
+// declare let L;
 
 @Component({
   selector: 'app-detail',
@@ -7,9 +9,22 @@ import {Component, OnInit} from '@angular/core';
 })
 export class DetailComponent implements OnInit {
   detail = {};
+  lat: number = 51.678418;
+  lng: number = 7.809007;
+
   constructor() {}
 
-  ngOnInit() {}
+  ngOnInit() {
+    // const map = L.map('map').setView([4.600807, -74.06949], 10);
+    // const layer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    //   attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    // }).addTo(map);
+    // const control = L.Routing.control({
+    //   waypoints: [L.latLng(4.625563, -74.065931), L.latLng(4.618901, -74.068126), L.latLng(4.600807, -74.06949)],
+    //   routeWhileDragging: true,
+    // }).addTo(map);
+    // control._container.style.display = 'None';
+  }
 
   ShowDetailSite(site: any) {
     this.detail = {

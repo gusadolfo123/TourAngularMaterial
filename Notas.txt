@@ -42,12 +42,22 @@ ng g m auth
 -- carrousel
 https://www.npmjs.com/package/ngx-hm-carousel
 https://alanzouhome.firebaseapp.com/package/NgxHmCarousel/example
-npm install resize-observer-polyfill --save-dev
-npm install --save tslib
-npm install --save ngx-hm-carousel
+npm i resize-observer-polyfill --save-dev
+npm i --save tslib
+npm i --save ngx-hm-carousel
 
 -- google recaptcha 
 npm i ng-recaptcha --save
 
 -- lightbox
 npm install --save ngx-lightbox
+
+
+-- para implementar mapas se usa leaflet
+https://codehandbook.org/use-leaflet-in-angular/
+
+-- implementacion de rutas
+npm i --save leaflet-routing-machine
+
+
+npm install @agm/core

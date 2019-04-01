@@ -11,6 +11,9 @@ import {PromotionComponent} from './index/promotion/promotion.component';
 import {PlacesComponent} from './places/places.component';
 import {DetailComponent} from './places/detail/detail.component';
 import {CardPlaceComponent} from './places/card-place/card-place.component';
+
+import {AgmCoreModule} from '@agm/core';
+
 @NgModule({
   declarations: [
     MainComponent,
@@ -22,6 +25,13 @@ import {CardPlaceComponent} from './places/card-place/card-place.component';
     DetailComponent,
     CardPlaceComponent,
   ],
-  imports: [CommonModule, MainRoutingModule, SharedModule, MatButtonModule, MatCardModule],
+  imports: [
+    CommonModule,
+    MainRoutingModule,
+    SharedModule,
+    MatButtonModule,
+    MatCardModule,
+    AgmCoreModule.forRoot({apiKey: 'AIzaSyApBgJo8r9ibGmrlUFCrlEI1HY1eM66Vi0'}),
+  ],
 })
 export class MainModule {}
