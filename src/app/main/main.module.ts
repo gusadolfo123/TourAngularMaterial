@@ -13,6 +13,7 @@ import {DetailComponent} from './places/detail/detail.component';
 import {CardPlaceComponent} from './places/card-place/card-place.component';
 
 import {AgmCoreModule} from '@agm/core';
+import {AgmDirectionModule} from 'agm-direction';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import {AgmCoreModule} from '@agm/core';
     MatButtonModule,
     MatCardModule,
     AgmCoreModule.forRoot({apiKey: ''}),
+    AgmDirectionModule,
   ],
 })
 export class MainModule {}

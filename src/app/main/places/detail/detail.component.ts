@@ -9,8 +9,12 @@ import {Component, OnInit} from '@angular/core';
 })
 export class DetailComponent implements OnInit {
   detail = {};
-  lat: number = 51.678418;
-  lng: number = 7.809007;
+  lat: number = 4.624291;
+  lng: number = -74.065738;
+
+  origin = {lat: 4.624291, lng: -74.065738};
+  destination = {lat: 4.601994, lng: -74.072751};
+  markers = [{lat: 4.624291, lng: -74.065738}, {lat: 4.601994, lng: -74.072751}];
 
   constructor() {}
 
@@ -24,6 +28,10 @@ export class DetailComponent implements OnInit {
     //   routeWhileDragging: true,
     // }).addTo(map);
     // control._container.style.display = 'None';
+  }
+
+  mapClicked($event: MouseEvent) {
+    console.log($event);
   }
 
   ShowDetailSite(site: any) {
