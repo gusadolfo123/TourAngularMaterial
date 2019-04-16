@@ -1,5 +1,5 @@
 // import '../../../../../node_modules/leaflet-routing-machine/dist/leaflet-routing-machine.js';
-import {Component, OnInit, Output, EventEmitter} from '@angular/core';
+import {Component, OnInit, Output, EventEmitter, ElementRef} from '@angular/core';
 // declare let L;
 
 @Component({
@@ -46,7 +46,7 @@ export class DetailComponent implements OnInit {
     },
   ];
 
-  constructor() {}
+  constructor(private elementRef: ElementRef) {}
 
   ngOnInit() {
     // const map = L.map('map').setView([4.600807, -74.06949], 10);
@@ -60,8 +60,14 @@ export class DetailComponent implements OnInit {
     // control._container.style.display = 'None';
   }
 
-  mapClicked($event: MouseEvent) {
-    console.log($event);
+  ngAfterViewInit() {
+    this.elementRef.nativeElement
+      .querySelector('directions_changed')
+      .addEventListener('directions_changed', this.onClick.bind(this));
+  }
+
+  onClick(event) {
+    console.log(event);
   }
 
   ShowDetailSite(site: any) {

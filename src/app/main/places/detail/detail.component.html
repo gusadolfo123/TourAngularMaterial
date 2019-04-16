@@ -50,7 +50,7 @@
         <div class="punto1" #punto1 (click)="ShowDetailSite(punto1)"></div>
       </picture> -->
       <agm-map [latitude]="lat" [longitude]="lng">
-        <agm-direction [origin]="origin" [destination]="destination" (click)="mapClicked($event)">
+        <agm-direction [origin]="origin" [destination]="destination" (sendInfowindow)="obtainInfowindow($event)">
         </agm-direction>
       </agm-map>
     </div>
